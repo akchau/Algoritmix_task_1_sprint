@@ -1,4 +1,4 @@
-"""id = 72174916"""
+"""id = 72255102"""
 from typing import List, Tuple
 
 
@@ -18,21 +18,15 @@ def length_to_zero(n, arr):
             g += 1
         return length_to_zero
 
-    def get_last_zero_index():
-        index = len(arr)-1
-        while arr[index] != 0:
-            index -= 1
-        return index
-
-    first_zero_index = arr.index(0)
-    last_zero_index = get_last_zero_index()
+    zero_arr = []
+    for index, value in enumerate(arr):
+        if not value:
+            zero_arr.append(index)
+    first_zero_index = zero_arr[0]
+    last_zero_index = zero_arr[-1]
     length_to_zero = [0]*n
     length_to_zero = full_before_first_zero_index()
     length_to_zero = full_after_last_zero_index()
-    zero_arr = []
-    for index, value in enumerate(arr):
-        if (not value):
-            zero_arr.append(index)
     left_index = zero_arr[0] + 1
     right_cnt = 0
     while left_index < last_zero_index:
@@ -51,11 +45,11 @@ def length_to_zero(n, arr):
 
 def read_input() -> Tuple[List[int], int]:
     n = int(input())
-    arr = list([int(x) for x in input().strip().split()])
+    arr = [int(x) for x in input().strip().split()]
     return n, arr
 
 
 if __name__ == "__main__":
     n, arr = read_input()
     result = length_to_zero(n, arr)
-    print(* result)
+    print(*result)

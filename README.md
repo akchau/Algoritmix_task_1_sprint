@@ -1,3 +1,5 @@
+[Перейти к остальным проектам](https://github.com/akchau/akchau/blob/main/README.md#проекты)
+
 # Algoritmix_task_1_sprint
 Решение двух алгоритмических задач с сервиса Яндекс.Контест
 #Задача_1:

@@ -2,6 +2,9 @@
 
 [Вторая часть](https://github.com/akchau/akchau/blob/main/README.md#проекты)
 
+[Третья часть](https://github.com/akchau/akchau/blob/main/README.md#проекты)
+
+
 
 # Algoritmix_task_1_sprint
 Решение двух алгоритмических задач с сервиса Яндекс.Контест

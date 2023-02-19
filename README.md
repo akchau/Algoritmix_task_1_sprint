@@ -2,7 +2,7 @@
 
 [Вторая часть](https://github.com/akchau/Algoritmix_task_2_sprint)
 
-[Третья часть](https://github.com/akchau/akchau/blob/main/README.md#проекты)
+[Третья часть](https://github.com/akchau/Algoritmix_task_3_sprint)
 
 
 
